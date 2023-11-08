@@ -6,6 +6,7 @@ public class App {
         double recentGrade = 0;
         double total = 0;
         double numberOfGrades = 0;
+        
         while (recentGrade >= 0){
             System.out.println("Enter a Grade");
             recentGrade = input.nextDouble();
