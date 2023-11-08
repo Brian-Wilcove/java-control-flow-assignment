@@ -10,7 +10,7 @@ public class App {
         while (recentGrade >= 0){
             System.out.println("Enter a Grade");
             recentGrade = input.nextDouble();
-            if(recentGrade > 100101){
+            if(recentGrade > 100){
                 System.out.println("You can't get a grade over 100!");
             } else if(recentGrade < 0){
                 System.out.println("Calculating Grade");
